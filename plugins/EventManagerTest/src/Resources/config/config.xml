@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Events name</title>
+        <input-field type="text">
+            <name>setEventName</name>
+            <default-value>plugin</default-value>
+            <placeholder>Events Name e.g Black Friday</placeholder>
+        </input-field>
+    </card>
+    <card>
+        <title>Events Main Color</title>
+        <input-field type="colorpicker">
+            <name>setEventMainColor</name>
+            <placeholder>Pick Color or type Hex Value e.g #ffffff</placeholder>
+        </input-field>
+    </card>
+    <card>
+        <title>Events Secondary Color</title>
+        <input-field type="colorpicker">
+            <name>setEventSecColor</name>
+            <placeholder>Pick Color or type Hex Value e.g #ffffff</placeholder>
+        </input-field>
+    </card>
+    
+
+</config>

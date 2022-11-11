@@ -1,0 +1,37 @@
+$sass-plugin-main-color: #225464 !default;
+$sass-plugin-secondary-color: #585469 !default;
+
+
+.event-name {
+    background-color: $sass-plugin-main-color;
+    color: $sass-plugin-secondary-color;
+    position: fixed;
+    top: 8px;
+    left: calc(50% - 70px);
+    z-index: 10;
+    border-radius: 5px;
+    max-height: 45px;
+    padding: 5px;
+    opacity: 0.48;
+    transition-delay: 20ms;
+    text-decoration-line: none;
+    text-decoration-color: none;
+    animation: attention 500ms infinite;
+    animation-delay: 0;
+    box-shadow: 10px 10px 80px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.event-name:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    text-decoration-line: none;
+    text-decoration-color: none;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
